@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body{
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Kanit', sans-serif;
+}
+
+.posicao {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+
+.h1, button{
+    color: white;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: rgb(153, 153, 153);
+}
+
+.logo-perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img, .logo-robo, button{
+    border-radius: 8px;
+}
+
+img:hover, .logo-robo:hover, button:hover{
+    border: 2px solid whitesmoke;
+}
+
+.logo-robo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(153, 153, 153, 0.151);
+    width: 160px;
+    height: 160px;
+}
+
+button{
+    border: 2px solid whitesmoke;
+    background-color: inherit;
+    width: 180px;
+    height: 45px;
+}
+
+button:hover{
+    background-color: whitesmoke;
+    color: inherit;
+}
